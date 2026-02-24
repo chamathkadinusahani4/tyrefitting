@@ -40,10 +40,12 @@ export function NuTyreLanding() {
         {/* Sticky Mobile CTA */}
         <div
           className={`fixed bottom-0 left-0 right-0 z-50 p-4 bg-nutyre-bg-secondary/95 backdrop-blur-lg border-t border-nutyre-yellow/20 transition-transform duration-300 lg:hidden ${showStickyCTA ? 'translate-y-0' : 'translate-y-full'}`}>
-
+            <a href="https://nutyre.co.uk/find-a-fitter">
           <CTAButton size="default" className="w-full">
             Book Your Tyre Fitting
           </CTAButton>
+          
+              </a>
         </div>
       </main>
     </>);

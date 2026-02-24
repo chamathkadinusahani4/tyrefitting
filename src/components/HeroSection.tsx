@@ -22,7 +22,7 @@ export function HeroSection() {
             }}
             className="space-y-8">
 
-            <h1 className="text-4xl sm:text-5xl lg:text-5xl xl:text-7xl font-heading font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold leading-tight">
               <span className="text-nutyre-yellow">Tyre Fitting Services</span>{' '}
               <span className="text-nutyre-text">Tailored to Your Vehicle</span>
             </h1>

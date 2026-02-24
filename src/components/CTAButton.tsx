@@ -20,7 +20,7 @@ export function CTAButton({
     large: 'px-10 py-4 text-lg'
   };
   const variantStyles = {
-    primary: 'bg-nutyre-yellow text-nutyre-bg hover:bg-yellow-300',
+    primary: 'bg-nutyre-yellow text-[#000000] hover:bg-yellow-300',
     secondary:
     'bg-transparent border-2 border-nutyre-yellow text-nutyre-yellow hover:bg-nutyre-yellow hover:text-nutyre-bg'
   };
