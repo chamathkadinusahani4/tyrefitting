@@ -24,7 +24,7 @@ export function FinalCTASection() {
           className="relative glass-card p-8 lg:p-16 rounded-3xl border-2 border-nutyre-yellow/30 overflow-hidden">
 
           {/* Animated glow effect */}
-          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-nutyre-yellow/5 to-transparent animate-pulse" />
+          <div className="absolute inset-0 bg-[#F6E05E] to-transparent animate-pulse" />
 
           <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold leading-tight">
@@ -72,9 +72,9 @@ export function FinalCTASection() {
               }}
               className="pt-4">
 
-              <CTAButton size="large" className="animate-glow-pulse">
-                Check Availability & Book Your Tyre Fitting Now
-              </CTAButton>
+              <a href="https://nutyre.co.uk/find-a-fitter">
+                <CTAButton>Check Availability & Book Your Tyre Fitting Now</CTAButton>
+              </a>
             </motion.div>
           </div>
         </motion.div>
@@ -82,3 +82,4 @@ export function FinalCTASection() {
     </section>);
 
 }
+

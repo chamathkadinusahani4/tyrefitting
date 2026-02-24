@@ -111,9 +111,9 @@ export function PricingSection() {
                 duration: 0.4,
                 delay: 0.5 + index * 0.1
               }}
-              className="glass-card p-6 rounded-xl text-center">
+              className="bg-nutyre-yellow p-6 rounded-xl text-center">
 
-                <div className="w-12 h-12 rounded-full bg-nutyre-yellow/10 flex items-center justify-center mx-auto mb-4">
+                <div className="w-12 h-12 rounded-full bg-[#000000] flex items-center justify-center mx-auto mb-4">
                   <CheckIcon
                   className="w-6 h-6 text-nutyre-yellow"
                   aria-hidden="true" />

@@ -41,7 +41,7 @@ const tyreOptions = [
 
 export function TyreOptionsSection() {
   return (
-    <section className="relative w-full py-20 lg:py-32 bg-[#ffff00]">
+    <section className="relative w-full py-20 lg:py-32 bg-[#ffffff]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{
@@ -94,7 +94,7 @@ export function TyreOptionsSection() {
                   duration: 0.5,
                   delay: index * 0.1
                 }}
-                className="glass-card p-8 rounded-xl group">
+                className="bg-nutyre-yellow/10 p-8 rounded-xl group">
 
                 <div className="w-16 h-16 rounded-xl bg-nutyre-yellow/10 flex items-center justify-center mb-6 group-hover:bg-nutyre-yellow/20 transition-colors duration-300">
                   <Icon

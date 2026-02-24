@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/nutyreaboutus/static/css/main.5e04de6b.css",
-    "main.js": "/nutyreaboutus/static/js/main.0d6a0872.js",
-    "static/media/whychooseus.jpeg": "/nutyreaboutus/static/media/whychooseus.74981d297be0a9e5ef10.jpeg",
-    "static/media/import.jpeg": "/nutyreaboutus/static/media/import.168aa79e3e142ca32e49.jpeg",
-    "static/media/about-hero.jpeg": "/nutyreaboutus/static/media/about-hero.a9ff8e7fc3a00c0a64e1.jpeg",
-    "static/media/mobile1.jpeg": "/nutyreaboutus/static/media/mobile1.015fe23c68eacbb7b7c6.jpeg",
-    "static/media/performance.jpeg": "/nutyreaboutus/static/media/performance.c69cc549751671bb2f5f.jpeg",
-    "static/media/service.jpeg": "/nutyreaboutus/static/media/service.ab44b94b87667945881c.jpeg",
-    "static/media/wholesale.jpeg": "/nutyreaboutus/static/media/wholesale.052a850f0f9b2e470ea3.jpeg",
-    "static/media/retail.jpeg": "/nutyreaboutus/static/media/retail.97de731b24c4b50100cc.jpeg",
-    "index.html": "/nutyreaboutus/index.html",
-    "main.5e04de6b.css.map": "/nutyreaboutus/static/css/main.5e04de6b.css.map",
-    "main.0d6a0872.js.map": "/nutyreaboutus/static/js/main.0d6a0872.js.map"
+    "main.css": "/tyrefitting/static/css/main.7f1001db.css",
+    "main.js": "/tyrefitting/static/js/main.39e3e9c5.js",
+    "static/media/mobile.png": "/tyrefitting/static/media/mobile.19a509af4e12d23cd863.png",
+    "static/media/fitting.png": "/tyrefitting/static/media/fitting.157e1f56228b55e204ef.png",
+    "index.html": "/tyrefitting/index.html",
+    "main.7f1001db.css.map": "/tyrefitting/static/css/main.7f1001db.css.map",
+    "main.39e3e9c5.js.map": "/tyrefitting/static/js/main.39e3e9c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e04de6b.css",
-    "static/js/main.0d6a0872.js"
+    "static/css/main.7f1001db.css",
+    "static/js/main.39e3e9c5.js"
   ]
 }

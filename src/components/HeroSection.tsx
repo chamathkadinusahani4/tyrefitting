@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { CTAButton } from './CTAButton';
+import fitting from '../assets/fitting.png';
 export function HeroSection() {
   return (
     <section className="relative w-full min-h-screen flex items-center tread-texture overflow-hidden">
@@ -21,7 +22,7 @@ export function HeroSection() {
             }}
             className="space-y-8">
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-5xl xl:text-7xl font-heading font-bold leading-tight">
               <span className="text-nutyre-yellow">Tyre Fitting Services</span>{' '}
               <span className="text-nutyre-text">Tailored to Your Vehicle</span>
             </h1>
@@ -67,9 +68,9 @@ export function HeroSection() {
                 delay: 0.3
               }}>
 
-              <CTAButton size="large" className="w-full sm:w-auto">
-                Check Availability & Book Now
-              </CTAButton>
+              <a href="https://nutyre.co.uk/find-a-fitter">
+                <CTAButton>Check Availability & Book Now</CTAButton>
+              </a>
             </motion.div>
           </motion.div>
 
@@ -89,14 +90,14 @@ export function HeroSection() {
             }}
             className="relative">
 
-            <div className="relative rounded-2xl overflow-hidden glass-card p-1">
-              <div className="aspect-[4/3] bg-gradient-to-br from-nutyre-bg-secondary to-nutyre-bg rounded-xl flex items-center justify-center">
+            <div className="relative rounded-2xl overflow-hidden  p-1">
+              <div className="aspect-[4/4] bg-gradient-to-br from-nutyre-bg-secondary to-nutyre-bg rounded-xl flex items-center justify-center">
                 <img
-                  src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?w=800&h=600&fit=crop"
+                  src={fitting}
                   alt="Mobile tyre fitting service van at customer home with technician fitting tyre"
                   className="w-full h-full object-cover rounded-xl opacity-80" />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-nutyre-bg via-transparent to-transparent opacity-60 rounded-xl" />
+                
               </div>
             </div>
 

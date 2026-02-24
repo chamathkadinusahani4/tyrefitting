@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { CTAButton } from './CTAButton';
+import mobile from '../assets/mobile.png';
 import { MapPinIcon, ClockIcon, TruckIcon } from 'lucide-react';
 const benefits = [
 {
@@ -44,13 +45,13 @@ export function ConvenienceSection() {
             className="relative order-2 lg:order-1">
 
             <div className="relative rounded-2xl overflow-hidden glass-card p-1">
-              <div className="aspect-[4/3] bg-gradient-to-br from-nutyre-bg-secondary to-nutyre-bg rounded-xl flex items-center justify-center">
+              <div className="aspect-[4/4] bg-gradient-to-br from-nutyre-bg-secondary to-nutyre-bg rounded-xl flex items-center justify-center">
                 <img
-                  src="https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&h=600&fit=crop"
+                  src={mobile}
                   alt="NuTyre mobile tyre fitting unit with cutting-edge tools"
                   className="w-full h-full object-cover rounded-xl opacity-80" />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-nutyre-bg via-transparent to-transparent opacity-60 rounded-xl" />
+                
               </div>
             </div>
 
@@ -153,9 +154,9 @@ export function ConvenienceSection() {
                 delay: 0.3
               }}>
 
-              <CTAButton size="large" className="w-full sm:w-auto">
-                Check Availability & Book Now
-              </CTAButton>
+              <a href="https://nutyre.co.uk/find-a-fitter">
+                <CTAButton>Check Availability & Book Now</CTAButton>
+              </a>
             </motion.div>
           </motion.div>
         </div>
