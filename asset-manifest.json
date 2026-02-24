@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tyrefitting/static/css/main.4e26e9b4.css",
+    "main.js": "/tyrefitting/static/js/main.43e13dcd.js",
+    "index.html": "/tyrefitting/index.html",
+    "main.4e26e9b4.css.map": "/tyrefitting/static/css/main.4e26e9b4.css.map",
+    "main.43e13dcd.js.map": "/tyrefitting/static/js/main.43e13dcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e26e9b4.css",
+    "static/js/main.43e13dcd.js"
+  ]
+}
