@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/nutyreaboutus/static/css/main.5e04de6b.css",
+    "main.js": "/nutyreaboutus/static/js/main.0d6a0872.js",
+    "static/media/whychooseus.jpeg": "/nutyreaboutus/static/media/whychooseus.74981d297be0a9e5ef10.jpeg",
+    "static/media/import.jpeg": "/nutyreaboutus/static/media/import.168aa79e3e142ca32e49.jpeg",
+    "static/media/about-hero.jpeg": "/nutyreaboutus/static/media/about-hero.a9ff8e7fc3a00c0a64e1.jpeg",
+    "static/media/mobile1.jpeg": "/nutyreaboutus/static/media/mobile1.015fe23c68eacbb7b7c6.jpeg",
+    "static/media/performance.jpeg": "/nutyreaboutus/static/media/performance.c69cc549751671bb2f5f.jpeg",
+    "static/media/service.jpeg": "/nutyreaboutus/static/media/service.ab44b94b87667945881c.jpeg",
+    "static/media/wholesale.jpeg": "/nutyreaboutus/static/media/wholesale.052a850f0f9b2e470ea3.jpeg",
+    "static/media/retail.jpeg": "/nutyreaboutus/static/media/retail.97de731b24c4b50100cc.jpeg",
+    "index.html": "/nutyreaboutus/index.html",
+    "main.5e04de6b.css.map": "/nutyreaboutus/static/css/main.5e04de6b.css.map",
+    "main.0d6a0872.js.map": "/nutyreaboutus/static/js/main.0d6a0872.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e04de6b.css",
+    "static/js/main.0d6a0872.js"
+  ]
+}
