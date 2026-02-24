@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/tyrefitting/static/css/main.4e26e9b4.css",
-    "main.js": "/tyrefitting/static/js/main.43e13dcd.js",
+    "main.css": "/tyrefitting/static/css/main.25df8bab.css",
+    "main.js": "/tyrefitting/static/js/main.eae0fa34.js",
+    "static/media/mobile.png": "/tyrefitting/static/media/mobile.19a509af4e12d23cd863.png",
+    "static/media/fitting.png": "/tyrefitting/static/media/fitting.157e1f56228b55e204ef.png",
     "index.html": "/tyrefitting/index.html",
-    "main.4e26e9b4.css.map": "/tyrefitting/static/css/main.4e26e9b4.css.map",
-    "main.43e13dcd.js.map": "/tyrefitting/static/js/main.43e13dcd.js.map"
+    "main.25df8bab.css.map": "/tyrefitting/static/css/main.25df8bab.css.map",
+    "main.eae0fa34.js.map": "/tyrefitting/static/js/main.eae0fa34.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e26e9b4.css",
-    "static/js/main.43e13dcd.js"
+    "static/css/main.25df8bab.css",
+    "static/js/main.eae0fa34.js"
   ]
 }
