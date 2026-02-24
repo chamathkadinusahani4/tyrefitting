@@ -8,7 +8,7 @@ export default {
       colors: {
         'nutyre-bg': '#FFFFFF',
         'nutyre-bg-secondary': '#e2e5e9',
-        'nutyre-yellow': '#fad105',
+        'nutyre-yellow': '#fcce00',
         'nutyre-red': '#ff3b3b',
         'nutyre-text': '#1A1A1A',
         'nutyre-text-secondary': '#3a3a3b',

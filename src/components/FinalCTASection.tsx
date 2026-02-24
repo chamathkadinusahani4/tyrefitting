@@ -1,27 +1,10 @@
-
-import { motion } from 'framer-motion';
 import { CTAButton } from './CTAButton';
+
 export function FinalCTASection() {
   return (
     <section className="relative w-full py-20 lg:py-32 bg-nutyre-bg-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 30
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0
-          }}
-          viewport={{
-            once: true,
-            margin: '-100px'
-          }}
-          transition={{
-            duration: 0.6
-          }}
-          className="relative glass-card p-8 lg:p-16 rounded-3xl border-2 border-nutyre-yellow/30 overflow-hidden">
+        <div className="relative glass-card p-8 lg:p-16 rounded-3xl border-2 border-nutyre-yellow/30 overflow-hidden">
 
           {/* Animated glow effect */}
           <div className="absolute inset-0 bg-[#F6E05E] to-transparent animate-pulse" />
@@ -54,32 +37,14 @@ export function FinalCTASection() {
               </span>
             </div>
 
-            <motion.div
-              initial={{
-                opacity: 0,
-                scale: 0.95
-              }}
-              whileInView={{
-                opacity: 1,
-                scale: 1
-              }}
-              viewport={{
-                once: true
-              }}
-              transition={{
-                duration: 0.5,
-                delay: 0.3
-              }}
-              className="pt-4">
-
+            <div className="pt-4">
               <a href="https://nutyre.co.uk/find-a-fitter">
                 <CTAButton>Check Availability & Book Your Tyre Fitting Now</CTAButton>
               </a>
-            </motion.div>
+            </div>
           </div>
-        </motion.div>
+        </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }
-

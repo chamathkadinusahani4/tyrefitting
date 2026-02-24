@@ -1,119 +1,70 @@
-
-import { motion } from 'framer-motion';
 import { CTAButton } from './CTAButton';
 import mobile from '../assets/mobile.png';
 import { MapPinIcon, ClockIcon, TruckIcon } from 'lucide-react';
+
 const benefits = [
-{
-  icon: TruckIcon,
-  title: 'Mobile Workshop',
-  description: 'Fully equipped units come to you'
-},
-{
-  icon: ClockIcon,
-  title: 'Same-Day Service',
-  description: 'Available in most UK locations'
-},
-{
-  icon: MapPinIcon,
-  title: 'Your Location',
-  description: 'Home, work, or roadside'
-}];
+  {
+    icon: TruckIcon,
+    title: 'Mobile Workshop',
+    description: 'Fully equipped units come to you'
+  },
+  {
+    icon: ClockIcon,
+    title: 'Same-Day Service',
+    description: 'Available in most UK locations'
+  },
+  {
+    icon: MapPinIcon,
+    title: 'Your Location',
+    description: 'Home, work, or roadside'
+  }
+];
 
 export function ConvenienceSection() {
   return (
     <section className="relative w-full py-20 lg:py-32 tread-texture">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left Image */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              x: -30
-            }}
-            whileInView={{
-              opacity: 1,
-              x: 0
-            }}
-            viewport={{
-              once: true,
-              margin: '-100px'
-            }}
-            transition={{
-              duration: 0.6
-            }}
-            className="relative order-2 lg:order-1">
 
+          {/* Left Image */}
+          <div className="relative order-2 lg:order-1">
             <div className="relative rounded-2xl overflow-hidden glass-card p-1">
               <div className="aspect-[4/4] bg-gradient-to-br from-nutyre-bg-secondary to-nutyre-bg rounded-xl flex items-center justify-center">
                 <img
                   src={mobile}
                   alt="NuTyre mobile tyre fitting unit with cutting-edge tools"
-                  className="w-full h-full object-cover rounded-xl opacity-80" />
-
-                
+                  className="w-full h-full object-cover rounded-xl opacity-80"
+                />
               </div>
             </div>
 
             {/* Benefit badges */}
             <div className="grid grid-cols-3 gap-4 mt-6">
-              {benefits.map((benefit, index) => {
+              {benefits.map((benefit) => {
                 const Icon = benefit.icon;
                 return (
-                  <motion.div
+                  <div
                     key={benefit.title}
-                    initial={{
-                      opacity: 0,
-                      y: 20
-                    }}
-                    whileInView={{
-                      opacity: 1,
-                      y: 0
-                    }}
-                    viewport={{
-                      once: true
-                    }}
-                    transition={{
-                      duration: 0.5,
-                      delay: 0.3 + index * 0.1
-                    }}
-                    className="glass-card p-4 rounded-lg text-center">
-
+                    className="glass-card p-4 rounded-lg text-center"
+                  >
                     <Icon
                       className="w-6 h-6 text-nutyre-yellow mx-auto mb-2"
-                      aria-hidden="true" />
-
+                      aria-hidden="true"
+                    />
                     <p className="text-nutyre-text text-xs font-heading font-semibold mb-1">
                       {benefit.title}
                     </p>
                     <p className="text-nutyre-text-secondary text-xs">
                       {benefit.description}
                     </p>
-                  </motion.div>);
-
+                  </div>
+                );
               })}
             </div>
-          </motion.div>
+          </div>
 
           {/* Right Content */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              x: 30
-            }}
-            whileInView={{
-              opacity: 1,
-              x: 0
-            }}
-            viewport={{
-              once: true,
-              margin: '-100px'
-            }}
-            transition={{
-              duration: 0.6
-            }}
-            className="space-y-8 order-1 lg:order-2">
-
+          <div className="space-y-8 order-1 lg:order-2">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold leading-tight">
               <span className="text-nutyre-text">Tyres Fitted at</span>{' '}
               <span className="text-nutyre-yellow">Your Convenience</span>
@@ -122,7 +73,7 @@ export function ConvenienceSection() {
             <div className="prose prose-lg prose-invert max-w-none space-y-6">
               <p className="text-nutyre-text-secondary text-lg leading-relaxed">
                 Forget the waiting rooms. With NuTyre, we bring the workshop to
-                you. Our mobile tyre fitting units are equipped with
+                you. Our <a href="https://nutyre.co.uk/mobile-tyre-fitting-service" className="text-nutyre-yellow underline" target="_blank" rel="noopener noreferrer">mobile tyre fitting</a> units are equipped with
                 cutting-edge tools to carry out precise fittings at your home,
                 work, or even roadside. It's more than just convenient, it's a
                 safer, faster way to keep your car road-ready.
@@ -137,30 +88,15 @@ export function ConvenienceSection() {
               </p>
             </div>
 
-            <motion.div
-              initial={{
-                opacity: 0,
-                y: 20
-              }}
-              whileInView={{
-                opacity: 1,
-                y: 0
-              }}
-              viewport={{
-                once: true
-              }}
-              transition={{
-                duration: 0.6,
-                delay: 0.3
-              }}>
-
+            <div>
               <a href="https://nutyre.co.uk/find-a-fitter">
                 <CTAButton>Check Availability & Book Now</CTAButton>
               </a>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }

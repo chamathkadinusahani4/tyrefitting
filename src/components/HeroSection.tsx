@@ -1,27 +1,14 @@
-
-import { motion } from 'framer-motion';
 import { CTAButton } from './CTAButton';
 import fitting from '../assets/fitting.png';
+
 export function HeroSection() {
   return (
     <section className="relative w-full min-h-screen flex items-center tread-texture overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          {/* Left Content */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: 30
-            }}
-            animate={{
-              opacity: 1,
-              y: 0
-            }}
-            transition={{
-              duration: 0.6
-            }}
-            className="space-y-8">
 
+          {/* Left Content */}
+          <div className="space-y-8">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold leading-tight">
               <span className="text-nutyre-yellow">Tyre Fitting Services</span>{' '}
               <span className="text-nutyre-text">Tailored to Your Vehicle</span>
@@ -29,11 +16,11 @@ export function HeroSection() {
 
             <div className="prose prose-lg prose-invert max-w-none">
               <p className="text-nutyre-text-secondary text-lg leading-relaxed">
-                Choosing the right tyre fitting services isn't just about wheels
-                — it's about{' '}
-                <span className="text-nutyre-yellow font-semibold">
+                Choosing the right {' '}
+                <span className="text-nutyre-yellow font-semibold">tyre fitting services </span>isn't just about wheels
+                — it's about
                   peace of mind
-                </span>
+                
                 . At NuTyre, we understand that your vehicle is more than just
                 transport — it's part of your daily life, your routine, your
                 freedom. That's why we offer a fully mobile, stress-free tyre
@@ -54,79 +41,38 @@ export function HeroSection() {
               </p>
             </div>
 
-            <motion.div
-              initial={{
-                opacity: 0,
-                y: 20
-              }}
-              animate={{
-                opacity: 1,
-                y: 0
-              }}
-              transition={{
-                duration: 0.6,
-                delay: 0.3
-              }}>
-
+            <div>
               <a href="https://nutyre.co.uk/find-a-fitter">
                 <CTAButton>Check Availability & Book Now</CTAButton>
               </a>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
 
           {/* Right Visual */}
-          <motion.div
-            initial={{
-              opacity: 0,
-              scale: 0.95
-            }}
-            animate={{
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 0.7,
-              delay: 0.2
-            }}
-            className="relative">
-
-            <div className="relative rounded-2xl overflow-hidden  p-1">
+          <div className="relative">
+            <div className="relative rounded-2xl overflow-hidden p-1">
               <div className="aspect-[4/4] bg-gradient-to-br from-nutyre-bg-secondary to-nutyre-bg rounded-xl flex items-center justify-center">
                 <img
                   src={fitting}
                   alt="Mobile tyre fitting service van at customer home with technician fitting tyre"
-                  className="w-full h-full object-cover rounded-xl opacity-80" />
-
-                
+                  className="w-full h-full object-cover rounded-xl opacity-80"
+                />
               </div>
             </div>
 
             {/* Floating badge */}
-            <motion.div
-              initial={{
-                opacity: 0,
-                x: 20
-              }}
-              animate={{
-                opacity: 1,
-                x: 0
-              }}
-              transition={{
-                duration: 0.6,
-                delay: 0.5
-              }}
-              className="absolute -bottom-6 -right-6 glass-card px-6 py-4 rounded-xl">
-
+            <div className="absolute -bottom-6 -right-6 glass-card px-6 py-4 rounded-xl">
               <p className="text-nutyre-yellow font-heading font-bold text-lg">
                 Same-Day Service
               </p>
               <p className="text-nutyre-text-secondary text-sm">
                 Available UK-Wide
               </p>
-            </motion.div>
-          </motion.div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }
